@@ -1,0 +1,35 @@
+// Nav
+.dropdown-menu{
+    background-color: nth($color, 2) !important;
+    border-radius: map-get($borderR, 25) !important;
+}
+// Fin Nav
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: $align;
+    align-items: $align;
+    @include border(#000, 1px, solid);
+    text-shadow: -3px 2px 6px rgba(0,0,0,0.73);
+}
+.caption h1{
+    font-size: map-get($font, grande);
+}
+main div .card{
+    padding: nth($padding, 1);
+}
+.card-img-top{
+    width: nth($width, 2);
+    height: nth($height, 2);
+    object-fit: $fit;
+}
+.img-11, .img-gecko2, .img-cirujano, .img-koi,
+.img-payaso, .img-tiburon, .img-camaleon, .img-cocodrilo{
+    object-position: nth($position, 2);
+}
+.img-17, .img-cisne-2, .img-gato1{
+    object-position: nth($position, 1);
+}
+.img-fit, .img-gato1{
+    object-fit: $fit;
+}   

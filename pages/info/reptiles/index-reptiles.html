@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ||Meta Etiquetas|| -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=5.0">
+    <meta name="author" content="Enzo Ruiz">
+    <meta name="reply-to" content="renzomach56@gmail.com">
+    <link rev="made" href="mailto:renzomach56@gmail.com">
+    <meta name="description" content="Página principal de la enclicopeda de Reptiles parte de la cuarta entrega del proyecto de final de desarrollo web.">
+    <meta name="keywords" content="Camaleón, cocodrilo, gecko, información, detalles, fotos.">
+    <!-- ||Protocolo Open Graph|| -->
+    <meta property="og:title" content=" Reptiles | Enciclopedia ">
+    <meta property="og:image" content="https://google.com">
+    <meta property="og:author" content="Enzo Ruiz">
+    <meta property="og:description" content="Página principal de la enclicopeda de Reptiles parte de la cuarta entrega del proyecto de final de desarrollo web.">
+    <!-- ||Bootstrap|| -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- ||CSS|| -->
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <title> Reptiles | | Enciclopedia </title>
+</head>
+<body>
+    <!-- ||Navbar|| -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarReptiles">
+        <div class="container-fluid">
+          <a href="../reptiles/index-reptiles.html" class="navbar-brand">
+              <img src="../../../assets/multimedia/index/otter-solid.svg" alt="Logo de la pagina" class="img-fluid logoNav">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 px-2">
+              <li class="nav-item dropdown text-center">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </a>
+                <ul class="dropdown-menu bg-dark text-center" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../../../index.html">Home</a></li>
+                  <li><a class="dropdown-item" href="../../../index.html#fotos">Fotos</a></li>
+                  <li><a class="dropdown-item" href="../../../pages/videos.html">Videos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../../../index.html#aboutUs">Sobre Nosotros</a></li>
+                  <li><a class="dropdown-item" href="../../../index.html#redes">Redes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="../../info/mamiferos/index-mamiferos.html">Mamiferos</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="../aves/index-aves.html">Aves</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="../reptiles/index-reptiles.html">Reptiles</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="../peces/index-peces.html">Peces</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- ||Fin del Navbar|| -->
+    <!-- ||Portada|| -->
+    <div class="card bg-dark text-white portadaEnciclopedia">
+      <img loading="lazy" src="../../../assets/multimedia/index/portadaReptiles.jpg" class="card-img" alt="Portada de aves">
+      <div class="card-img-overlay caption">
+        <h1 class="card-title">Bienvenido</h1>
+        <p class="card-text">Consulta información, detalles, fotos y mas sobre algunos de los reptiles que habitan el planeta.</p>
+      </div>
+    </div>
+    <!-- ||Fin Portada|| -->
+    <!-- ||Tarjetas de animales|| -->
+    <main class="container-fluid text-center">
+      <h2 class="h1 my-5">Lista de animales</h2>
+      <div class="d-flex justify-content-center flex-wrap row mx-auto my-3 gap-2">
+        <div class="card tarjeta" style="width: 18rem;">
+          <a href="../reptiles/camaleon.html">
+            <img loading="lazy" src="../../../assets/multimedia/img/Camaleon/02.jpg" class="card-img-top" alt="Camaleon">
+          </a>
+          <div class="card-body">
+            <p class="card-text tarjetaText">Camaleon</p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem;">
+          <a href="../reptiles/cocodrilo.html">
+            <img loading="lazy" src="../../../assets/multimedia/img/Cocodrilo/02.jpg" class="card-img-top" alt="Cocodrilo">
+          </a>
+          <div class="card-body">
+            <p class="card-text tarjetaText">Cocodrilo</p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem;">
+          <a href="../reptiles/gecko.html">
+            <img loading="lazy" src="../../../assets/multimedia/img/Gecko/01.jpg" class="card-img-top" alt="Gecko">
+          </a>
+          <div class="card-body">
+            <p class="card-text tarjetaText">Gecko</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ||Fin tarjetas de animales|| -->
+    <!-- ||Redirección|| -->
+    <footer>
+      <div class="d-flex justify-content-center my-2">
+        <a href="../../enciclopedia.html"><button class="btnReptiles">Volver</button></a>
+    </div>
+    </footer>
+    <!-- ||Script|| -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>

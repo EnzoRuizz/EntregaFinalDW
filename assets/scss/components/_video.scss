@@ -1,0 +1,6 @@
+.videoPortada{
+    width: nth($width, 2);
+}
+.videoGaleria{
+    border-radius: map-get($borderR, 25)
+}

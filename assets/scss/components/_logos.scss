@@ -1,0 +1,28 @@
+// Home, Fotos, Videos, Enciclopedia
+.logoNav{
+    width: nth($width, 3);
+    height: nth($height, 3);
+  }
+.svg{
+  width: nth($width, 3);
+}
+.navbar-brand:hover{
+    animation: changeScale 2s;
+}
+@keyframes changeScale{
+    25%{
+      transform: rotate(nth($rotate, 1)) scale(0.5);
+    }
+    50%{
+      transform: rotate(nth($rotate, 1)) scale(0.3);
+    }
+    75%{
+      transform: rotate(nth($rotate, 1)) scale(1.3);
+    }
+}
+// Footer
+.logo{
+    width: nth($width, 4);
+    height: nth($height, 4);
+    margin-bottom: $margin;
+}

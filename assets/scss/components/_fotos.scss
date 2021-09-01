@@ -1,0 +1,19 @@
+.imgGaleria{
+    border-radius: map-get($borderR, 25);
+    object-fit: $fit;
+    padding-top: nth($padding, 1);
+    padding: nth($padding, 3);
+}
+.img-5{
+    object-position: nth($position, 2);
+}
+.img-9{
+    object-position: nth($position, 2);
+}
+.imgFotos{
+    transition: nth($transition, 2);
+    border-radius: map-get($borderR, 25);
+    object-fit: $fit;
+    padding-top: nth($padding, 1);
+    padding: nth($padding, 3);
+}

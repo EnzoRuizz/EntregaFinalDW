@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: map-get($font, medio);
+    font-family: $font-family;
+    text-align: $align;
+    color: nth($color, 2);
+  }
+  .containerContent{
+    @include border(#000, 1px, solid);
+    background-color: nth($color, 3);
+  }
+  .aboutUs{
+    font-size: map-get($font, chico)
+  }

@@ -1,0 +1,60 @@
+// Home, Fotos, Videos
+.btn{
+    font-size: map-get($font, chico);
+    border-radius: map-get($borderR, 50);
+    padding: nth($padding, 2);
+    color: nth($color, 1);
+    background-color: nth($color, 2);
+    transition: nth($transition, 1);
+}
+
+.btn:hover{
+    color: nth($color, 1);
+    transform: scale(1.01);
+    box-shadow: map-get($box-shadow, normal);
+}
+// Botones de Enciclopedia
+.btnMamiferos{
+    font-size: map-get($font, chico);
+    border-radius: map-get($borderR, 50);
+    padding: nth($padding, 2);
+    @include backgroundMamiferos;
+    transition: nth($transition, 1);
+  }
+  .btnMamiferos:hover{
+    transform: scale(1.01);
+    box-shadow: map-get($box-shadow, mamiferos);
+  }
+  .btnPeces{
+    font-size: map-get($font, chico);
+    border-radius: map-get($borderR, 50);
+    padding: nth($padding, 2);
+    @include backgroundPeces;
+    transition: nth($transition, 1);
+  }
+  .btnPeces:hover{
+    transform: scale(1.01);
+    box-shadow: map-get($box-shadow, peces);
+  }
+  .btnReptiles{
+    font-size: map-get($font, chico);
+    border-radius: map-get($borderR, 50);
+    padding: nth($padding, 2);
+    @include backgroundReptiles;
+    transition: nth($transition, 1);
+  }
+  .btnReptiles:hover{
+    transform: scale(1.01);
+    box-shadow: map-get($box-shadow, reptiles);
+  }
+  .btnAves{
+    font-size: map-get($font, chico);
+    border-radius: map-get($borderR, 50);
+    padding: nth($padding, 2);
+    @include backgroundAves;
+    transition: nth($transition, 1);
+  }
+  .btnAves:hover{
+    transform: scale(1.01);
+    box-shadow: map-get($box-shadow, aves);
+  }

@@ -1,0 +1,8 @@
+@media only screen and (min-width: 100px) and (max-width: 375px){
+    body{
+        font-size: map-get($font, chico);
+    }
+    .bodyMamiferos{
+        font-size: map-get($font,  mamiferos);
+    }
+}

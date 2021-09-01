@@ -1,0 +1,11 @@
+// tarjetas
+.tarjeta{
+    background-color: nth($color, 2);
+    border-radius: map-get($borderR, 25);
+}
+.tarjeta img{
+    border-radius: map-get($borderR, 25);
+}
+.tarjetaText{
+    color: nth($color, 1);
+}

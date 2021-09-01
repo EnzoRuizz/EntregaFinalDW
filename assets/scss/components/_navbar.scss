@@ -1,0 +1,35 @@
+// Home, Fotos, Videos
+.navbar{
+  background-color: nth($color, 2) !important;
+}
+.navbar-nav{
+    li{
+      a{
+        color: nth($color, 1) !important;
+        border-radius: map-get($borderR, 50);
+        padding: nth($padding, 1);
+      }
+      a:hover{
+        color: nth($color, 2) !important;
+        background: nth($color, 1) !important;
+        border-radius: map-get($borderR, 50);
+      }
+    }
+    ul{
+      border-radius: map-get($borderR, 25);
+    }
+}
+
+// NavBar de Enciclopedia
+.navbarAves{
+    @include backgroundAves;
+  }
+  .navbarPeces{
+    @include backgroundPeces;
+  }
+  .navbarMamiferos{
+    @include backgroundMamiferos;
+  }
+  .navbarReptiles{
+    @include backgroundReptiles
+  }
